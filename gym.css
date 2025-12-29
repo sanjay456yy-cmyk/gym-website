@@ -1,0 +1,131 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    background: url(../image/OIP.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.gym-head {
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+
+}
+
+.gym-head img {
+    width: 80px;
+    height: 80px;
+    margin: 0 20px;
+    border-radius: 50%;
+}
+
+.gym p {
+    color: white;
+    font-size: 25px;
+    margin: 10px 0;
+
+
+
+}
+
+nav {
+    display: inline-block;
+}
+
+
+
+nav ul {
+    position: absolute;
+    right: 650px;
+    top: 20px;
+
+
+}
+
+nav ul li {
+    display: inline-block;
+
+
+}
+
+nav ul li a {
+
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 50%
+}
+
+nav li a:hover,
+nav li a:active {
+    color: azure;
+    background: black;
+}
+
+.buttons {
+    position: absolute;
+    display: inline-block;
+    right: 34px;
+    top: 40px;
+    }
+
+.bit {
+    margin: 0 9px;
+    background: black;
+    padding: 10px 20px;
+    border-radius: 10%;
+}
+.bit a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.bit a:hover,.bit a:active 
+ {
+    font-weight: bold;
+    background: red; 
+    color: black;
+}
+.bit:hover,.bit:active{
+    background: red;
+}
+
+.container{
+    border:2px solid white;
+    color: white;
+    margin: 100px  450px;
+    padding: 20px 30px;
+    width: 40%;
+    height: 500px;
+    border-radius: 5px;
+}
+.form-group input{
+    width: 300px;
+    padding: 15px 20px;
+    margin: 0 180px;
+    opacity: 0.6;
+    font-size: 25px;
+
+}
+.container button{
+     width: 300px;
+    padding: 15px 20px;
+    margin: 0 195px;
+    color: white;
+    
+
+}
+.container h2{
+    text-align: center;
+    text-decoration: none;
+
+}
+.form-group input:hover{
+    background-color: rgb(116, 44, 44);
+}
+
