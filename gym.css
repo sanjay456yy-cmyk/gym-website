@@ -71,6 +71,7 @@ nav li a:active {
     display: inline-block;
     right: 34px;
     top: 40px;
+    background: white;
     }
 
 .bit {
@@ -128,4 +129,5 @@ nav li a:active {
 .form-group input:hover{
     background-color: rgb(116, 44, 44);
 }
+
 
